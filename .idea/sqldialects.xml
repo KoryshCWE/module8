@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SqlDialectMappings">
+    <file url="file://$PROJECT_DIR$/SQL/find_longest_project.sql" dialect="H2" />
+    <file url="file://$PROJECT_DIR$/SQL/find_max_projects_client.sql" dialect="H2" />
+    <file url="file://$PROJECT_DIR$/SQL/find_max_salery_worker.sql" dialect="H2" />
+    <file url="file://$PROJECT_DIR$/SQL/init_db.sql" dialect="H2" />
+    <file url="file://$PROJECT_DIR$/SQL/populate_db.sql" dialect="H2" />
+    <file url="PROJECT" dialect="H2" />
+  </component>
+  <component name="SqlResolveMappings">
+    <file url="file://$PROJECT_DIR$/SQL/print_project_prices.sql" scope="{&quot;node&quot;:{  &quot;@negative&quot;:&quot;1&quot;,  &quot;group&quot;:{   &quot;@kind&quot;:&quot;root&quot;,   &quot;node&quot;:{    &quot;@negative&quot;:&quot;1&quot;   }  } }}" />
+    <file url="PROJECT" scope="{&quot;node&quot;:{  &quot;@negative&quot;:&quot;1&quot;,  &quot;group&quot;:{   &quot;@kind&quot;:&quot;root&quot;,   &quot;node&quot;:{    &quot;name&quot;:{     &quot;@qname&quot;:&quot;6cfc8e3a-3f3c-4b3a-a4a0-f6d22f15a59a&quot;    }   }  } }}" />
+  </component>
+</project>
