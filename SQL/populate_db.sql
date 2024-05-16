@@ -10,14 +10,12 @@ INSERT INTO worker (NAME, BIRTHDAY, LEVEL, SALARY) VALUES
                                                        ('Matthew Taylor', '1995-06-08', 'Trainee', 950),
                                                        ('Amanda Garcia', '1989-10-22', 'Junior', 1300);
 
-
 INSERT INTO client (NAME) VALUES
                               ('BIC Corporation'),
                               ('ZYX Ltd.'),
                               ('Tech Innovations'),
                               ('Local Solutions'),
                               ('Digital Solutions');
-
 
 INSERT INTO project (CLIENT_ID, START_DATE, FINISH_DATE) VALUES
                                                              (1, '2023-01-01', '2023-03-15'),
@@ -31,16 +29,14 @@ INSERT INTO project (CLIENT_ID, START_DATE, FINISH_DATE) VALUES
                                                              (4, '2023-09-20', '2024-01-25'),
                                                              (5, '2023-10-15', '2024-02-28');
 
-
-INSERT INTO project_worker (PROJECT_ID, WORKER_ID)
-VALUES
-    (1, 1), (1, 2), (1, 3),
-    (2, 2), (2, 4), (2, 5),
-    (3, 3), (3, 4), (3, 6),
-    (4, 4), (4, 5), (4, 7),
-    (5, 5), (5, 6), (5, 8),
-    (6, 6), (6, 7), (6, 9),
-    (7, 7), (7, 8), (7, 10),
-    (8, 8), (8, 9),
-    (9, 9), (9, 10),
-    (10, 10);
+INSERT INTO project_worker (PROJECT_ID, WORKER_ID) VALUES
+                                                       (1, 1), (1, 2), (1, 3),
+                                                       (2, 2), (2, 4), (2, 5),
+                                                       (3, 3), (3, 4), (3, 6),
+                                                       (4, 4), (4, 5), (4, 7),
+                                                       (5, 5), (5, 6), (5, 8),
+                                                       (6, 6), (6, 7), (6, 9),
+                                                       (7, 7), (7, 8), (7, 10),
+                                                       (8, 8), (8, 9),
+                                                       (9, 9), (9, 10),
+                                                       (10, 10);

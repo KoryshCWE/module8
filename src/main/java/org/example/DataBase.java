@@ -11,7 +11,7 @@ class Database {
     private Database() {
         try {
             connection = DriverManager.getConnection("jdbc:h2:mem:test");
-            System.out.println("Hello");
+
         } catch (SQLException e) {
             e.printStackTrace();
         }
