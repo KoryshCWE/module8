@@ -1,5 +1,5 @@
 CREATE TABLE worker (
-                        ID INT AUTO_INCREMENT PRIMARY KEY,
+                        ID SERIAL PRIMARY KEY,
                         NAME VARCHAR(1000) NOT NULL CHECK (LENGTH(NAME) >= 2 AND LENGTH(NAME) <= 1000),
                         BIRTHDAY DATE CHECK (BIRTHDAY > '1900-01-01'),
                         LEVEL VARCHAR(20) NOT NULL CHECK (LEVEL IN ('Trainee', 'Junior', 'Middle', 'Senior')),
@@ -7,12 +7,12 @@ CREATE TABLE worker (
 );
 
 CREATE TABLE client (
-                        ID INT AUTO_INCREMENT PRIMARY KEY,
+                        ID SERIAL PRIMARY KEY,
                         NAME VARCHAR(1000) NOT NULL CHECK (LENGTH(NAME) >= 2 AND LENGTH(NAME) <= 1000)
 );
 
 CREATE TABLE project (
-                         ID INT AUTO_INCREMENT PRIMARY KEY,
+                         ID SERIAL PRIMARY KEY,
                          CLIENT_ID INT,
                          START_DATE DATE,
                          FINISH_DATE DATE,
