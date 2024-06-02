@@ -9,15 +9,9 @@ import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
-
-//        DatabaseInitService.main(args);
         ClientService service  = new ClientService();
         try {
-//            service.create("John Deer");
-//            String name = service.getById(4);
-//            System.out.println(name);
-//            service.setName(4, "Digital Slang");
-//            service.delete(7);
+
             List<Client> clients = service.getAll();
             for (Client client : clients) {
                 System.out.println(client.getName());
